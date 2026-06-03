@@ -12,7 +12,7 @@ import Gallery from "./components/Gallery";
 import Testimonials from "./components/Testimonials";
 import Contact from "./components/Contact";
 import Footer from "./components/Footer";
-import WhatsAppButton from "./components/WhatsAppButton";
+import WhatsAppButton from "./components/WhatsappButton";
 import RegisterCTA from "./components/RegisterCTA";
 
 export default function App() {
