@@ -77,8 +77,8 @@ export default function Hero() {
           mt-6
           "
         >
-          Raising Kingdom
-          Ambassadors For Christ
+          Equipping Believers 
+          For The Work of Ministry
         </h1>
 
         <p

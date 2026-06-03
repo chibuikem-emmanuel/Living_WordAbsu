@@ -182,7 +182,7 @@ export default function Footer() {
           "
         >
           <p className="text-slate-500">
-            © 2026 Church Name.
+            © 2026 Living Word Church ABSU.
             All rights reserved.
           </p>
 
