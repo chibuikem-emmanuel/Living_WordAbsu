@@ -2,7 +2,8 @@ import { useEffect, useState } from "react";
 
 export default function EventCountdown({ targetDate }) {
   const calculateTimeLeft = () => {
-    const difference = new Date(targetDate) - new Date();
+   const difference =
+   new Date(targetDate).getTime() - Date.now();
 
     if (difference <= 0) {
       return {

@@ -4,7 +4,7 @@ import EventCountdown from "./EventCountdown";
 const events = [
   {
     title: "Prime Summit",
-    date: "2026-08-25",
+    date: "2026-07-30T23:59:59",
     image: "/events/prime summit.png",
     status: "Registration Open",
     venue: "Main Auditorium(Lecture East Audit)",
