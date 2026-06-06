@@ -130,9 +130,11 @@ export default function UpcomingPrograms() {
                   hover:bg-yellow-400
                   transition
                   "
-                  href="https://church-conf.onrender.com/event/15/"
+                
                 >
-                  Register Now
+                  <a href="https://church-conf.onrender.com/event/15/" target="_blank" rel="noopener noreferrer">
+                    Register Now
+                  </a>
                 </button>
 
               </div>
