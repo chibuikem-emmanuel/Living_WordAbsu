@@ -8,6 +8,7 @@ const events = [
     image: "/events/prime summit.png",
     status: "Registration Open",
     venue: "Main Auditorium(Lecture East Audit)",
+    registrationLink: "https://church-conf.onrender.com/event/15/",
   },
   {
     title: "Destiny Conference",
@@ -15,6 +16,7 @@ const events = [
     image: "/events/desting.png",
     status: "Upcoming",
     venue: "Church Arena",
+    registrationLink: "https://forms.gle/firecamp2026",
   },
   {
     title: "Fire Camp",
@@ -22,6 +24,7 @@ const events = [
     image: "/events/fire camp.png",
     status: "Coming Soon",
     venue: "Camp of Testimony",
+    registrationLink: "https://forms.gle/firecamp2026",
   },
 
 ];
@@ -118,24 +121,26 @@ export default function UpcomingPrograms() {
                   targetDate={event.date}
                 />
 
-                <button
+               <a
+                  href={event.registrationLink}
+                  target="_blank"
+                  rel="noopener noreferrer"
                   className="
-                  w-full
-                  mt-6
-                  bg-yellow-500
-                  text-black
-                  py-4
-                  rounded-full
-                  font-semibold
-                  hover:bg-yellow-400
-                  transition
+                    block
+                    w-full
+                    mt-6
+                    bg-yellow-500
+                    text-black
+                    py-4
+                    rounded-full
+                    font-semibold
+                    hover:bg-yellow-400
+                    transition
+                    text-center
                   "
-                
                 >
-                  <a href="https://church-conf.onrender.com/event/15/" target="_blank" rel="noopener noreferrer">
-                    Register Now
-                  </a>
-                </button>
+                Register Now
+              </a>
 
               </div>
             </motion.div>
