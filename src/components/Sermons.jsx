@@ -40,8 +40,10 @@ export default function Sermons() {
                   {sermon.title}
                 </h3>
 
-                <button className="mt-6 bg-yellow-500 text-black px-5 py-3 rounded-full">
-                  Listen Now
+                <button className="mt-6 bg-yellow-500 text-black px-5 py-3 rounded-full" href="https://t.me/lwccabsu" target="_blank" rel="noreferrer">
+                  <a className="text-black font-bold" href="https://t.me/lwccabsu" target="_blank" rel="noreferrer">
+                    Listen Now
+                  </a>
                 </button>
               </div>
             </div>
