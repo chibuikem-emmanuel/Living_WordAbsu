@@ -43,9 +43,66 @@ export default function Contact() {
         </form>
 
         <div className="flex justify-center gap-6 mt-12 text-3xl">
-          <FaFacebook />
-          <FaInstagram />
-          <FaYoutube />
+         <a
+    href="https://www.facebook.com/profile.php?id=100066267020371&sk=about"
+    target="_blank"
+    rel="noopener noreferrer"
+    className="
+      w-12
+      h-12
+      rounded-full
+      bg-slate-800
+      flex
+      items-center
+      justify-center
+      hover:bg-yellow-500
+      hover:text-black
+      transition-all
+      duration-300
+    "
+  >
+    <FaFacebook size={20} />
+  </a>
+          <a
+    href="https://www.instagram.com/lwcc.absu/"
+    target="_blank"
+    rel="noopener noreferrer"
+    className="
+      w-12
+      h-12
+      rounded-full
+      bg-slate-800
+      flex
+      items-center
+      justify-center
+      hover:bg-yellow-500
+      hover:text-black
+      transition-all
+      duration-300
+    "
+  >
+    <FaInstagram size={20} />
+  </a>
+          <a
+    href="https://www.youtube.com/"
+    target="_blank"
+    rel="noopener noreferrer"
+    className="
+      w-12
+      h-12
+      rounded-full
+      bg-slate-800
+      flex
+      items-center
+      justify-center
+      hover:bg-yellow-500
+      hover:text-black
+      transition-all
+      duration-300
+    "
+  >
+    <FaYoutube size={20} />
+  </a>
         </div>
 
       </div>
